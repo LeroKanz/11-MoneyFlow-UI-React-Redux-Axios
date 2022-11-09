@@ -1,0 +1,33 @@
+
+.offscreen {
+  position: absolute;
+  left: -9999px;
+}
+
+.errormsg {
+  border-radius: 0.2rem;
+  box-shadow: 12px 14px 70px rgba(34, 35, 58, 0.3);
+  background-color: rgb(102, 187, 202);
+  color: rgb(63, 31, 31);
+  font-weight: bold;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.drop {
+  width: 48vw;
+  height: 25vw;
+  border: 5px dashed black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pull {
+  width: 48vw;
+  height: 25vw;
+  border: 5px dashed red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
